@@ -7,96 +7,94 @@ export function HeroParallaxDemo() {
 }
 const products = [
   {
-    title: "Moonbeam",
+    title: "Agent Pet",
     link: "https://gomoonbeam.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+      "/assets/agent-pet.png",
   },
   {
-    title: "Cursor",
+    title: "NBQ",
     link: "https://cursor.so",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+      "/assets/nbq.png",
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
-  },
-
-  {
-    title: "Editorially",
+    title: "King of the Curve",
     link: "https://editorially.org",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+      "/assets/kotc.png",
   },
   {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
+    title: "Agent Pet",
+    link: "https://gomoonbeam.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
+        "/assets/agent-pet.png",
   },
   {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
+    title: "NBQ",
+    link: "https://cursor.so",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
-  },
-
-  {
-    title: "Algochurn",
-    link: "https://algochurn.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+        "/assets/nbq.png",
   },
   {
-    title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
+    title: "King of the Curve",
+    link: "https://editorially.org",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
-  },
-  {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
-  },
-  {
-    title: "SmartBridge",
-    link: "https://smartbridgetech.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-  },
-  {
-    title: "Renderwork Studio",
-    link: "https://renderwork.studio",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
+        "/assets/kotc.png",
   },
 
   {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
+    title: "Agent Pet",
+    link: "https://gomoonbeam.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
+        "/assets/agent-pet.png",
   },
   {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
+    title: "NBQ",
+    link: "https://cursor.so",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
+        "/assets/nbq.png",
   },
   {
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
+    title: "King of the Curve",
+    link: "https://editorially.org",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
+        "/assets/kotc.png",
   },
   {
-    title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
+    title: "Agent Pet",
+    link: "https://gomoonbeam.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+        "/assets/agent-pet.png",
+  },
+  {
+    title: "NBQ",
+    link: "https://cursor.so",
+    thumbnail:
+        "/assets/nbq.png",
+  },
+  {
+    title: "King of the Curve",
+    link: "https://editorially.org",
+    thumbnail:
+        "/assets/kotc.png",
+  },
+  {
+    title: "Agent Pet",
+    link: "https://gomoonbeam.com",
+    thumbnail:
+        "/assets/agent-pet.png",
+  },
+  {
+    title: "NBQ",
+    link: "https://cursor.so",
+    thumbnail:
+        "/assets/nbq.png",
+  },
+  {
+    title: "King of the Curve",
+    link: "https://editorially.org",
+    thumbnail:
+        "/assets/kotc.png",
   },
 ];

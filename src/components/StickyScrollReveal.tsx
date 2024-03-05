@@ -4,24 +4,24 @@ import { StickyScroll } from "./ui/sticky-scroll-reveal";
 
 const content = [
   {
-    title: "Collaborative Editing",
+    title: "Discovery Call",
     description:
-      "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+        "Start your journey with FlutterDesk by speaking directly to key developers and sharing your vision, ambitions, and challenges. We specialize in turning problems into innovative solutions across varied domains, and we welcome free ideation sessions to explore the potential of your ideas.",
   },
   {
-    title: "Real time changes",
+    title: "Strategic Planning & Validation",
     description:
-      "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
+        "After our initial discussion, we seamlessly merge your distinct requirements with our vast experience. This ensures a tailored approach to your project, prioritizing clarity, precision, and a keen understanding of your vision.",
   },
   {
-    title: "Version control",
+    title: "Design & Roadmapping",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+        "We prioritize design and road mapping to visualize and validate ideas early through detailed prototypes. This proactive approach allows you to foresee the final product and its impact, mitigating the risks and uncertainties associated with the development.",
   },
   {
-    title: "Running out of content",
+    title: "Development and Enhancement",
     description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+        "Full transparency is practiced, offering you a real-time perspective on the development process. Each task is meticulously detailed, providing a clear and coherent insight into the progress, ensuring the final product aligns seamlessly with your vision.",
   },
 ];
 export function StickyScrollRevealDemo() {

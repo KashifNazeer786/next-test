@@ -9,7 +9,10 @@ export const ParallaxScroll = ({
   images,
   className,
 }: {
-  images: string[];
+  images: {
+    src: string;
+    title: string;
+  }[];
   className?: string;
 }) => {
   const gridRef = useRef<any>(null);
@@ -44,39 +47,42 @@ export const ParallaxScroll = ({
               key={"grid-1" + idx}
             >
               <Image
-                src={el}
-                className="h-80 w-full object-cover object-left-top rounded-lg gap-10 !m-0 !p-0"
-                height="400"
-                width="400"
+                src={el.src}
+                className="h-80 w-full object-contain object-left-top rounded-lg gap-10 !m-0 !p-0"
+                height="300"
+                width="300"
                 alt="thumbnail"
               />
+              <span className="text-white text-center w-full">{el.title}</span>
             </motion.div>
           ))}
         </div>
         <div className="grid gap-10">
           {secondPart.map((el, idx) => (
-            <motion.div style={{ y: translateSecond }} key={"grid-2" + idx}>
-              <Image
-                src={el}
-                className="h-80 w-full object-cover object-left-top rounded-lg gap-10 !m-0 !p-0"
-                height="400"
-                width="400"
-                alt="thumbnail"
-              />
-            </motion.div>
+              <motion.div style={{y: translateSecond}} key={"grid-2" + idx}>
+                <Image
+                    src={el.src}
+                    className="h-80 w-full object-cover object-left-top rounded-lg gap-10 !m-0 !p-0"
+                    height="300"
+                    width="300"
+                    alt="thumbnail"
+                />
+                <span className="text-white text-center w-full">{el.title}</span>
+              </motion.div>
           ))}
         </div>
         <div className="grid gap-10">
           {thirdPart.map((el, idx) => (
-            <motion.div style={{ y: translateThird }} key={"grid-3" + idx}>
-              <Image
-                src={el}
-                className="h-80 w-full object-cover object-left-top rounded-lg gap-10 !m-0 !p-0"
-                height="400"
-                width="400"
-                alt="thumbnail"
-              />
-            </motion.div>
+              <motion.div style={{y: translateThird}} key={"grid-3" + idx}>
+                <Image
+                    src={el.src}
+                    className="h-80 w-full object-cover object-left-top rounded-lg gap-10 !m-0 !p-0"
+                    height="300"
+                    width="300"
+                    alt="thumbnail"
+                />
+                <span className="text-white text-center w-full">{el.title}</span>
+              </motion.div>
           ))}
         </div>
       </div>

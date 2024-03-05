@@ -7,75 +7,75 @@ export function ParallaxScrollDemo() {
 
 const images = [
   {
-    src: '/assets/figma.png',
+    src: '/assets/figma.svg',
     title: 'Figma'
   },
   {
-    src: '/assets/selenium.png',
+    src: '/assets/selenium.svg',
     title: 'Selenium'
   },
   {
-    src: '/assets/flutter.png',
+    src: '/assets/flutter.svg',
     title: 'Flutter'
   },
   {
-    src: '/assets/mongo.png',
+    src: '/assets/mongo.svg',
     title: 'MongoDB'
   },
   {
-    src: '/assets/aws.png',
+    src: '/assets/aws.svg',
     title: 'AWS'
   },
   {
-    src: '/assets/azure.png',
+    src: '/assets/azure.svg',
     title: 'Azure'
   },
   {
-    src: '/assets/html.png',
+    src: '/assets/html.svg',
     title: 'HTML'
   },
   {
-    src: '/assets/react.png',
+    src: '/assets/react.svg',
     title: 'React.JS'
   },
   {
-    src: '/assets/vue.png',
+    src: '/assets/vue.svg',
     title: 'Vue.JS'
   },
   {
-    src: '/assets/redis.png',
+    src: '/assets/redis.svg',
     title: 'Redis'
   },
   {
-    src: '/assets/my-sql.png',
+    src: '/assets/my-sql.svg',
     title: 'MySQL'
   },
   {
-    src: '/assets/docker.png',
+    src: '/assets/docker.svg',
     title: 'Docker'
   },
   {
-    src: '/assets/node.png',
+    src: '/assets/node.svg',
     title: 'Node.JS'
   },
   {
-    src: '/assets/python.png',
+    src: '/assets/python.svg',
     title: 'Python'
   },
   {
-    src: '/assets/laravel.png',
+    src: '/assets/laravel.svg',
     title: 'Laravel'
   },
   {
-    src: '/assets/golang.png',
+    src: '/assets/golang.svg',
     title: 'Golang'
   },
   {
-    src: '/assets/nest.png',
+    src: '/assets/nest.svg',
     title: 'Nest.JS'
   },
   {
-    src: '/assets/cloud.png',
+    src: '/assets/cloud.svg',
     title: 'Google Cloud'
   },
 ];

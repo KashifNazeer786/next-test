@@ -33,7 +33,7 @@ export const ParallaxScroll = ({
 
     return (
         <div
-            className={cn("h-[40rem] items-start overflow-y-auto w-full", className)}
+            className={cn("h-[40rem] items-start overflow-y-auto w-full hide-scroll-bar", className)}
             ref={gridRef}
         >
             <div
@@ -46,13 +46,13 @@ export const ParallaxScroll = ({
                             style={{y: translateFirst}} // Apply the translateY motion value here
                             key={"grid-1" + idx}
                         >
-                            <div className="flex flex-col bg-white justify-center items-center rounded-xl p-5 gap-5">
+                            <div className="flex flex-col bg-black justify-center items-center rounded-xl p-5 gap-5">
                                 <img
                                     src={el.src}
-                                    className="h-[200px] w-[200px]"
+                                    className="h-[120px] w-[120px]"
                                     alt="thumbnail"
                                 />
-                                <span className="text-black font-semibold text-center w-full">{el.title}</span>
+                                <span className="text-neutral-300 font-semibold text-center w-full">{el.title}</span>
                             </div>
                         </motion.div>
                     ))}
@@ -60,13 +60,13 @@ export const ParallaxScroll = ({
                 <div className="grid gap-10">
                     {secondPart.map((el, idx) => (
                         <motion.div style={{y: translateSecond}} key={"grid-2" + idx}>
-                            <div className="flex flex-col bg-white justify-center items-center rounded-xl p-5 gap-5">
+                            <div className="flex flex-col bg-black justify-center items-center rounded-xl p-5 gap-5">
                                 <img
                                     src={el.src}
-                                    className="h-[200px] w-[200px]"
+                                    className="h-[120px] w-[120px]"
                                     alt="thumbnail"
                                 />
-                                <span className="text-black font-semibold text-center w-full">{el.title}</span>
+                                <span className="text-neutral-300 font-semibold text-center w-full">{el.title}</span>
                             </div>
                         </motion.div>
                     ))}
@@ -74,13 +74,13 @@ export const ParallaxScroll = ({
                 <div className="grid gap-10">
                     {thirdPart.map((el, idx) => (
                         <motion.div style={{y: translateThird}} key={"grid-3" + idx}>
-                            <div className="flex flex-col bg-white justify-center items-center rounded-xl p-5 gap-5">
+                            <div className="flex flex-col bg-black justify-center items-center rounded-xl p-5 gap-5">
                                 <img
                                     src={el.src}
-                                    className="h-[200px] w-[200px]"
+                                    className="h-[120px] w-[120px]"
                                     alt="thumbnail"
                                 />
-                                <span className="text-black font-semibold text-center w-full">{el.title}</span>
+                                <span className="text-neutral-300 font-semibold text-center w-full">{el.title}</span>
                             </div>
                         </motion.div>
                     ))}

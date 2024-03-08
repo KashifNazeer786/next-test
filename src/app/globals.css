@@ -31,3 +31,22 @@ body {
     text-wrap: balance;
   }
 }
+
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Style scrollbar for Firefox */
+.hide-scroll-bar {
+  scrollbar-width: none;
+}
+
+/* Style scrollbar track for Firefox */
+.hide-scroll-bar::-webkit-scrollbar-track {
+  display: none;
+}
+
+/* Style scrollbar thumb for Firefox */
+.hide-scroll-bar::-webkit-scrollbar-thumb {
+  display: none;
+}

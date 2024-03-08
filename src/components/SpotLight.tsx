@@ -23,7 +23,7 @@ export function SpotlightPreview() {
                     <ul className={'mt-5 flex items-center justify-between list-disc'}>
                         <li className={"text-neutral-300"}>7-Day Risk-Free Trial</li>
                         <li className={"text-neutral-300"}>Flexible Hiring Model</li>
-                        <li >12/7 Customer Support</li>
+                        <li className={"text-neutral-300"}>12/7 Customer Support</li>
                     </ul>
                 </div>
                 <SignupFormDemo/>
